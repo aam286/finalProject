@@ -1,0 +1,175 @@
+/* *{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* img{
+    width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+
+} */
+
+.navbar-brand {
+  text-transform: uppercase;  
+  
+}
+.logo{
+    margin-left: 30px;
+  
+    width: 90px;
+}
+
+
+
+a
+{
+	color: rgb(215, 27, 6);
+    text-decoration: none;
+    font-family: 'Sen', sans-serif;
+
+}
+
+a:hover
+{
+	color: red;
+	text-decoration: aqua;
+    
+}
+
+
+
+.content-container{
+    margin-left: 50px;
+    
+}
+
+
+.movie-list-container{
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.movie-list-title{
+    font-size: 30px;
+    font: bold;
+    color: #fefefe;
+
+}
+
+
+.movie-list{
+    display: flex;
+    height: 300px;
+    align-items:center;
+}
+
+.movie-item{
+    margin-right: 30px;
+    
+}
+
+
+/* transformation on hovering */
+.movie-item:hover .movie-item-img{
+    transform: scale(1.2);
+    margin: 0 30px
+}
+
+.movie-item-img{
+    transition: all .5s ease-in-out;
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.mission{
+    
+    padding-left: 50px;
+    background-color: rgb(107, 8, 8);
+    height: 100%;
+    
+	
+}
+
+
+.search{
+    background: style;
+    padding-left: 50px;
+	border: 15px;
+	border-color: #48284A;
+	border-style: groove;
+	border-radius: 5px;
+	display: block;
+	margin: 5%;
+	text-decoration-style: solid;
+	text-align: center;
+	color: #B38C02;
+	font-size: 3em;
+}
+
+
+#mainForm{
+	display: block;
+	margin: 0;
+	text-decoration-style: none;
+	text-align: center;
+	color: #eee1b1;
+	font-size: 1em;
+    font-family: 'Sen', sans-serif;
+    line-height: 30px;
+    
+}
+
+#signUpForm{
+    
+    background-color: #151515;
+    margin: 0 10%;
+    color: rgb(247, 233, 233);  
+    height: 100%;
+    width: 90%;
+    font-family: 'Sen', sans-serif;
+    display: block;
+    line-height: 30px;
+   
+}
+
+#error{
+   margin: 5%;
+   padding: 20px 20%;
+   background-color: rgb(131, 16, 16);
+}
+
+#submit{
+    cursor: pointer;
+}
+
+#signInForm{
+
+	display: block;
+	margin-left: 50px;
+    height: 100%;
+    width: 100%;
+    background-color: #151515;;
+	text-decoration-style: none;
+	text-align: center;
+	color: #eee1b1;
+	font-size: 1em;
+    font-family: 'Sen', sans-serif;
+    line-height: 30px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 0 0 0 50px;
+    height: 100%;
+    font-family: 'Sen', sans-serif;
+}
+
